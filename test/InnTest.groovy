@@ -1,5 +1,6 @@
 import gildedrose.Inn
 import gildedrose.Item
+import org.junit.Test
 import spock.lang.Specification
 
 /**
@@ -129,5 +130,12 @@ class InnTest extends Specification
         then:
         itemOne.quality == 42
         itemOne.sellIn == 10
+    }
+
+    @Test
+    def x()
+    {
+        def x = 1 | 2
+        println x
     }
 }
