@@ -131,11 +131,4 @@ class InnTest extends Specification
         itemOne.quality == 42
         itemOne.sellIn == 10
     }
-
-    @Test
-    def x()
-    {
-        def x = 1 | 2
-        println x
-    }
 }
